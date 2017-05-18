@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background: url(http://thecutestblogontheblock.com/wp-content/uploads/2011/11/vintage-pecan-free-stretch-blog-background-cream.jpg);
     font-size: 18px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -7,22 +7,23 @@ body {
 .header {
     padding: 10px;
     margin-top: 0px;
-    padding: 15px;
-    border-bottom: 3px solid green;
+    padding: 10px;
+    border-bottom: 5px solid #5F9EA0;
 }
 
 .brand {
     font-size: 40px;
+    padding-left: 30px;
 }
 
 #main-container {
-    margin: 40px 30px 20px 30px;
+    margin: 20px 30px 20px 30px;
 }
 
 #crystals-btns {
     padding: 100px;
     margin-left: 20px;
-    width:960px;
+    width: 960px;
     border: 1px solid black;
 }
 
@@ -35,7 +36,7 @@ body {
 }
 
 .panel-title {
-    font-size: large;
+    font-size: 22px;
 }
 
 .instructions {
@@ -62,4 +63,13 @@ body {
 
 .score {
     line-height: 10px;
+}
+
+.scoreboard {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scoreHeading {
+    background-color: black;
 }

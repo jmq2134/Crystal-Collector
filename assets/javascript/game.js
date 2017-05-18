@@ -12,12 +12,13 @@ $(document).ready(function() {
     function reset() {
         //set value of gems to a random #
         $(".gem").each(function() {
-            var gemRandom = Math.floor(Math.random() * 16)  + 1;
+            var gemRandom = Math.floor(Math.random() * 12) + 1;;
             $(this).attr("data-num", gemRandom);
+            console.log(gemRandom);
         });
         //set the randomNum to guess
         $(".randomNum").each(function() {
-            var gemRandom = Math.floor(Math.random() * 100)  + 1;
+            var gemRandom = Math.floor(Math.random() * 100)  + 20;
             $(".userGuess").html("<p>0</p>");
             randomNum = gemRandom;
             $(this).attr("data-num", gemRandom).html("").append("<p>" + gemRandom + "</p>");
