@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-size: 18px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.header {
+    padding: 10px;
+    margin-top: 0px;
+    padding: 15px;
+    border-bottom: 3px solid green;
+}
+
+.brand {
+    font-size: 40px;
+}
+
+#main-container {
+    margin: 40px 30px 20px 30px;
+}
+
+#crystals-btns {
+    padding: 100px;
+    margin-left: 20px;
+    width:960px;
+    border: 1px solid black;
+}
+
+.panel-heading {
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+}
+
+.panel-title {
+    font-size: large;
+}
+
+.instructions {
+    line-height: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.panel-info>p {
+    font: 60px;
+}
+
+.holder {
+    font-size: 40px;
+}
+
+.well>h4 {
+    font-size: 30px;
+}
+
+.well>p {
+    font-size: 20px;
+}
+
+.score {
+    line-height: 10px;
+}
