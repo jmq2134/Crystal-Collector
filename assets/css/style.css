@@ -45,6 +45,10 @@ body {
     text-align: left;
 }
 
+.scoreHeading {
+    background-color: #b3cce6;
+}
+
 .panel-info>p {
     font: 60px;
 }
@@ -73,3 +77,5 @@ body {
 .scoreHeading {
     background-color: black;
 }
+
+
