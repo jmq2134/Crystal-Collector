@@ -4,6 +4,10 @@ Crystal-Collector
 
 ## Description
 
+The user tries to match a randomly generated number by clicking on four crystals.  The value of each crystal is unknown to the user.  Wins and losses are tallied until the page is refreshed. 
+
+https://jmq2134.github.io/week-4-game/
+
 ## Game Play
 
 There will be four crystals displayed as buttons on the page.
